@@ -14,8 +14,18 @@ public class LineComparisonProblem{
 		int line1 = ((3*x1)+(5*y1));
 		int line2 = ((10*x2)-(2*y2));
 		if (line1 == line2)
+			{
 			System.out.println("Two lines are equal");
-		else
-			System.out.println("Lines are not equal");
+			}
+		if (line1 < line2)
+			{
+			System.out.println("Line2 is grater");
+			System.out.println(line2-line1);
+			}
+		if (line1 > line2)
+			{
+			System.out.println("Line 1 is grater");
+			System.out.println(line1-line2);
+			}
 }
 }
